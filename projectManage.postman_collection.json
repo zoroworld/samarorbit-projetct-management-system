@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "fb7d5ac2-e68b-483d-82f9-0a1df9aa31de",
+		"name": "projectManage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26273056"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/v1/users/register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"admin\",\n  \"email\": \"admin@example.com\",\n  \"password\": \"admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/users/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/projects/create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTcxNTk5MywiZXhwIjoxNzUxODAyMzkzfQ.2G1ZKG86eb55btEr4S_iFiHXm7s9jGvPAOsADsvvMEM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"MERN Admin Panel\",\n  \"description\": \"Admin dashboard with task tracking\",\n  \"startDate\": \"2025-07-05\",\n  \"endDate\": \"2025-07-31\",\n  \"status\": \"Not Started\",\n  \"tasks\": [\n    {\n      \"title\": \"Design UI\",\n      \"description\": \"Create layout and login page\",\n      \"dueDate\": \"2025-07-10\",\n      \"priority\": \"High\",\n      \"status\": \"Not Started\"\n    },\n    {\n      \"title\": \"Backend API Setup\",\n      \"description\": \"Setup Express and MongoDB routes\",\n      \"dueDate\": \"2025-07-15\",\n      \"priority\": \"Medium\",\n      \"status\": \"Not Started\"\n    }\n  ]\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/projects/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"projects",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/projects",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTcxNTk5MywiZXhwIjoxNzUxODAyMzkzfQ.2G1ZKG86eb55btEr4S_iFiHXm7s9jGvPAOsADsvvMEM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/projects",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/projects",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTcxNTk5MywiZXhwIjoxNzUxODAyMzkzfQ.2G1ZKG86eb55btEr4S_iFiHXm7s9jGvPAOsADsvvMEM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/projects/686916555876a17249af283f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"projects",
+						"686916555876a17249af283f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/projects/686916555876a17249af283f/tasks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTcxNTk5MywiZXhwIjoxNzUxODAyMzkzfQ.2G1ZKG86eb55btEr4S_iFiHXm7s9jGvPAOsADsvvMEM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/projects/686916555876a17249af283f/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"projects",
+						"686916555876a17249af283f",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/projects/6867f5994f27d5fba91da799",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTY0MzgwMiwiZXhwIjoxNzUxNzMwMjAyfQ.O04dBMapbxLb6aAgJALy7-dqq3Z3EHgRyvv0cjVNv3E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"assignedUsers\": [\n    \"6864578d283a35aa41ce87c7\",\n    \"6864594f283a35aa41ce87cb\"\n  ]\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/projects/6867f5994f27d5fba91da799",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"projects",
+						"6867f5994f27d5fba91da799"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/tasks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTY0MzgwMiwiZXhwIjoxNzUxNzMwMjAyfQ.O04dBMapbxLb6aAgJALy7-dqq3Z3EHgRyvv0cjVNv3E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Create Login Page\",\n  \"description\": \"Build and style the login page with form validation.\",\n  \"dueDate\": \"2025-07-15T00:00:00.000Z\",\n  \"priority\": \"High\",\n  \"status\": \"Not Started\",\n  \"assignedUsers\": [\"6688a1f9c12d4aabc1234567\", \"6688a1f9c12d4aabc1234568\"], \n  \"projectId\": \"6687f60af00ceaefc65aa77c\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/tasks",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTY0MzgwMiwiZXhwIjoxNzUxNzMwMjAyfQ.O04dBMapbxLb6aAgJALy7-dqq3Z3EHgRyvv0cjVNv3E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/v1/tasks",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjdmNjBhZjAwY2VhZTBmYzY1YWE3YyIsImlhdCI6MTc1MTY0MzgwMiwiZXhwIjoxNzUxNzMwMjAyfQ.O04dBMapbxLb6aAgJALy7-dqq3Z3EHgRyvv0cjVNv3E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/tasks/686916555876a17249af283f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"tasks",
+						"686916555876a17249af283f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

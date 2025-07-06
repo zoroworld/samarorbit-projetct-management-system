@@ -108,6 +108,11 @@ cd client
 npm install
 npm run dev
 
+4. postman setup
+provide the postman for api which file name is projectManage.postman_collection.json
+download projectManage.postman_collection.json
+then import in post mane
+
 
 
 
