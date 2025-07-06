@@ -19,7 +19,7 @@ const AdminLayout = () => {
         window.location.href = '/user';   
      }
      setUser(username.user);
-  }, []);
+  }, [0]);
 
 
   return (

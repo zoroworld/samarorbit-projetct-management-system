@@ -12,6 +12,7 @@ const UserLayout = () => {
 
   const getfetcUserData = async () =>{
     const username = await JSON.parse(localStorage.getItem('user'));
+    
     if (!username) {
        window.location.href = '/login';
        return;
