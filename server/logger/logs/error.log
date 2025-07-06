@@ -1,0 +1,1482 @@
+[2025-07-02 03:43:50] ERROR: ➡️ POST /api/v1/users/login → 500 [164ms]
+[2025-07-02 03:43:50] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/login",
+  "status": 500,
+  "duration": "164ms",
+  "body": {
+    "email": "manish@example.com",
+    "password": "StrongPassword123"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "JWT_EXPIRES_IN is not defined"
+  }
+}
+[2025-07-04 01:04:43] ERROR: ➡️ POST /api/v1/users/register → 500 [65ms]
+[2025-07-04 01:04:43] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "65ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:04:54] ERROR: ➡️ POST /api/v1/users/register → 500 [55ms]
+[2025-07-04 01:04:54] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "55ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:05:06] ERROR: ➡️ POST /api/v1/users/register → 500 [54ms]
+[2025-07-04 01:05:06] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "54ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:05:07] ERROR: ➡️ POST /api/v1/users/register → 500 [54ms]
+[2025-07-04 01:05:07] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "54ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:05:07] ERROR: ➡️ POST /api/v1/users/register → 500 [53ms]
+[2025-07-04 01:05:07] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "53ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:06:35] ERROR: ➡️ POST /api/v1/users/register → 500 [54ms]
+[2025-07-04 01:06:35] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "54ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:08:04] ERROR: ➡️ POST /api/v1/users/register → 500 [57ms]
+[2025-07-04 01:08:04] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "57ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:10:18] ERROR: ➡️ POST /api/v1/users/register → 500 [53ms]
+[2025-07-04 01:10:18] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "53ms",
+  "body": {
+    "name": "rahul",
+    "email": "admin@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:10:48] ERROR: ➡️ POST /api/v1/users/register → 500 [49ms]
+[2025-07-04 01:10:48] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "49ms",
+  "body": {
+    "name": "rahul",
+    "email": "admin@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:10:56] ERROR: ➡️ POST /api/v1/users/register → 500 [55ms]
+[2025-07-04 01:10:56] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "55ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:12:01] ERROR: ➡️ POST /api/v1/users/register → 500 [49ms]
+[2025-07-04 01:12:01] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "49ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:13:31] ERROR: ➡️ POST /api/v1/users/register → 500 [55ms]
+[2025-07-04 01:13:31] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "55ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:14:23] ERROR: ➡️ POST /api/v1/users/register → 500 [53ms]
+[2025-07-04 01:14:23] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "53ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:14:30] ERROR: ➡️ POST /api/v1/users/register → 500 [52ms]
+[2025-07-04 01:14:31] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "52ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:15:11] ERROR: ➡️ POST /api/v1/users/register → 500 [62ms]
+[2025-07-04 01:15:11] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "62ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:15:39] ERROR: ➡️ POST /api/v1/users/register → 500 [53ms]
+[2025-07-04 01:15:39] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "53ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:18:42] ERROR: ➡️ POST /api/v1/users/register → 500 [50ms]
+[2025-07-04 01:18:42] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "50ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "12345",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`12345`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:19:22] ERROR: ➡️ POST /api/v1/users/register → 500 [52ms]
+[2025-07-04 01:19:22] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "52ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:20:35] ERROR: ➡️ POST /api/v1/users/register → 500 [57ms]
+[2025-07-04 01:20:35] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "57ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:21:32] ERROR: ➡️ POST /api/v1/users/register → 500 [51ms]
+[2025-07-04 01:21:32] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "51ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 01:21:38] ERROR: ➡️ POST /api/v1/users/register → 500 [51ms]
+[2025-07-04 01:21:38] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/users/register",
+  "status": 500,
+  "duration": "51ms",
+  "body": {
+    "name": "rahul",
+    "email": "alok@gmail.com",
+    "password": "1234",
+    "role": "member"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (6)."
+  }
+}
+[2025-07-04 21:29:24] ERROR: ➡️ GET /api/v1/projects → 500 [177ms]
+[2025-07-04 21:29:24] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects",
+  "status": 500,
+  "duration": "177ms",
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot populate path `tasks` because it is not in your schema. Set the `strictPopulate` option to false to override."
+  }
+}
+[2025-07-04 21:30:39] ERROR: ➡️ GET /api/v1/projects → 500 [123ms]
+[2025-07-04 21:30:39] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects",
+  "status": 500,
+  "duration": "123ms",
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot populate path `tasks` because it is not in your schema. Set the `strictPopulate` option to false to override."
+  }
+}
+[2025-07-04 22:22:59] ERROR: ➡️ GET /api/v1/projects → 500 [92ms]
+[2025-07-04 22:22:59] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects",
+  "status": 500,
+  "duration": "92ms",
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot populate path `tasks` because it is not in your schema. Set the `strictPopulate` option to false to override."
+  }
+}
+[2025-07-04 22:45:33] ERROR: ➡️ GET /api/v1/projects → 500 [89ms]
+[2025-07-04 22:45:33] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects",
+  "status": 500,
+  "duration": "89ms",
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot populate path `tasks` because it is not in your schema. Set the `strictPopulate` option to false to override."
+  }
+}
+[2025-07-05 17:17:29] ERROR: ➡️ POST /api/v1/projects/create → 500 [102ms]
+[2025-07-05 17:17:29] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "102ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "taskData is not defined"
+  }
+}
+[2025-07-05 17:19:00] ERROR: ➡️ POST /api/v1/projects/create → 500 [100ms]
+[2025-07-05 17:19:00] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "100ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Project validation failed: tasks.0: Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    title: 'Design UI',\\n\" +\n  \"    description: 'Create layout and login page',\\n\" +\n  \"    dueDate: '2025-07-10',\\n\" +\n  \"    priority: 'High',\\n\" +\n  \"    status: 'Not Started'\\n\" +\n  '  },\\n' +\n  '  {\\n' +\n  \"    title: 'Backend API Setup',\\n\" +\n  \"    description: 'Setup Express and MongoDB routes',\\n\" +\n  \"    dueDate: '2025-07-15',\\n\" +\n  \"    priority: 'Medium',\\n\" +\n  \"    status: 'Not Started'\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"tasks.0\" because of \"CastError\""
+  }
+}
+[2025-07-05 17:23:51] ERROR: ➡️ POST /api/v1/projects/create → 500 [107ms]
+[2025-07-05 17:23:51] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "107ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required., dueDate: Path `dueDate` is required., description: Path `description` is required., title: Path `title` is required."
+  }
+}
+[2025-07-05 17:26:13] ERROR: ➡️ POST /api/v1/projects/create → 500 [116ms]
+[2025-07-05 17:26:13] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "116ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required., dueDate: Path `dueDate` is required., description: Path `description` is required., title: Path `title` is required."
+  }
+}
+[2025-07-05 17:28:23] ERROR: ➡️ POST /api/v1/projects/create → 500 [109ms]
+[2025-07-05 17:28:23] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "109ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required."
+  }
+}
+[2025-07-05 17:29:30] ERROR: ➡️ POST /api/v1/projects/create → 500 [110ms]
+[2025-07-05 17:29:30] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "110ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required."
+  }
+}
+[2025-07-05 17:30:18] ERROR: ➡️ POST /api/v1/projects/create → 500 [130ms]
+[2025-07-05 17:30:18] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "130ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required."
+  }
+}
+[2025-07-05 17:30:47] ERROR: ➡️ POST /api/v1/projects/create → 500 [248ms]
+[2025-07-05 17:30:47] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "248ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Failed to create project: Error creating task: Task validation failed: projectId: Path `projectId` is required."
+  }
+}
+[2025-07-05 17:32:11] ERROR: ➡️ POST /api/v1/projects/create → 500 [252ms]
+[2025-07-05 17:32:11] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "252ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "taskData is not defined"
+  }
+}
+[2025-07-05 17:35:31] ERROR: ➡️ POST /api/v1/projects/create → 500 [196ms]
+[2025-07-05 17:35:31] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/projects/create",
+  "status": 500,
+  "duration": "196ms",
+  "body": {
+    "title": "MERN Admin Panel",
+    "description": "Admin dashboard with task tracking",
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-31",
+    "status": "Not Started",
+    "tasks": [
+      {
+        "title": "Design UI",
+        "description": "Create layout and login page",
+        "dueDate": "2025-07-10",
+        "priority": "High",
+        "status": "Not Started"
+      },
+      {
+        "title": "Backend API Setup",
+        "description": "Setup Express and MongoDB routes",
+        "dueDate": "2025-07-15",
+        "priority": "Medium",
+        "status": "Not Started"
+      }
+    ]
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "taskData is not defined"
+  }
+}
+[2025-07-05 18:39:39] ERROR: ➡️ POST /api/v1/tasks → 500 [60ms]
+[2025-07-05 18:39:39] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/tasks",
+  "status": 500,
+  "duration": "60ms",
+  "body": [
+    {
+      "title": "fmjgh",
+      "description": "fhjnfh",
+      "dueDate": "2025-07-03",
+      "priority": "Medium",
+      "status": "Not Started"
+    },
+    {
+      "title": "zdvzd",
+      "description": "dzvdzv",
+      "dueDate": "2025-07-09",
+      "priority": "High",
+      "status": "Not Started"
+    }
+  ],
+  "response": {
+    "message": "Error creating task: Task validation failed: project: Path `project` is required., dueDate: Path `dueDate` is required., description: Path `description` is required., title: Path `title` is required."
+  }
+}
+[2025-07-05 18:39:42] ERROR: ➡️ POST /api/v1/tasks → 500 [60ms]
+[2025-07-05 18:39:42] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/tasks",
+  "status": 500,
+  "duration": "60ms",
+  "body": [
+    {
+      "title": "fmjgh",
+      "description": "fhjnfh",
+      "dueDate": "2025-07-03",
+      "priority": "Medium",
+      "status": "Not Started"
+    },
+    {
+      "title": "zdvzd",
+      "description": "dzvdzv",
+      "dueDate": "2025-07-09",
+      "priority": "High",
+      "status": "Not Started"
+    }
+  ],
+  "response": {
+    "message": "Error creating task: Task validation failed: project: Path `project` is required., dueDate: Path `dueDate` is required., description: Path `description` is required., title: Path `title` is required."
+  }
+}
+[2025-07-05 19:13:25] ERROR: ➡️ POST /api/v1/tasks → 500 [51ms]
+[2025-07-05 19:13:25] ERROR: {
+  "method": "POST",
+  "url": "/api/v1/tasks",
+  "status": 500,
+  "duration": "51ms",
+  "body": [
+    {
+      "title": "dngdn",
+      "description": "nggdn",
+      "dueDate": "2025-07-14",
+      "priority": "High",
+      "status": "Not Started",
+      "project": ""
+    },
+    {
+      "title": "ffnfdn",
+      "description": "ngdngdn",
+      "dueDate": "2025-07-05",
+      "priority": "High",
+      "status": "Not Started"
+    },
+    {
+      "title": "sfnfdn",
+      "description": "ngdngd",
+      "dueDate": "2025-07-18",
+      "priority": "High",
+      "status": "Not Started"
+    },
+    {
+      "title": "thtdj",
+      "description": "dgjdj",
+      "dueDate": "2025-07-10",
+      "priority": "Medium",
+      "status": "Not Started"
+    },
+    {
+      "title": "efwegw",
+      "description": "gergerg",
+      "dueDate": "2025-07-10",
+      "priority": "Medium",
+      "status": "Not Started"
+    }
+  ],
+  "response": {
+    "message": "Error creating task: Task validation failed: project: Path `project` is required., dueDate: Path `dueDate` is required., description: Path `description` is required., title: Path `title` is required."
+  }
+}
+[2025-07-05 19:41:17] ERROR: ➡️ GET /api/v1/projects/6867f5994f27d5fba91da799/tasks → 500 [117ms]
+[2025-07-05 19:41:17] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/6867f5994f27d5fba91da799/tasks",
+  "status": 500,
+  "duration": "117ms",
+  "params": {
+    "id": "6867f5994f27d5fba91da799"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Project not found"
+  }
+}
+[2025-07-05 19:42:07] ERROR: ➡️ GET /api/v1/projects/6867f5994f27d5fba91da799/tasks → 500 [138ms]
+[2025-07-05 19:42:07] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/6867f5994f27d5fba91da799/tasks",
+  "status": 500,
+  "duration": "138ms",
+  "params": {
+    "id": "6867f5994f27d5fba91da799"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Project not found"
+  }
+}
+[2025-07-05 19:43:31] ERROR: ➡️ GET /api/v1/projects/6867f5994f27d5fba91da799/tasks → 500 [135ms]
+[2025-07-05 19:43:31] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/6867f5994f27d5fba91da799/tasks",
+  "status": 500,
+  "duration": "135ms",
+  "params": {
+    "id": "6867f5994f27d5fba91da799"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Project not found"
+  }
+}
+[2025-07-05 19:55:17] ERROR: ➡️ GET /api/v1/projects/66f7b3fca93f32f776ad1234/tasks → 500 [96ms]
+[2025-07-05 19:55:17] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/66f7b3fca93f32f776ad1234/tasks",
+  "status": 500,
+  "duration": "96ms",
+  "params": {
+    "id": "66f7b3fca93f32f776ad1234"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "mongoose is not defined"
+  }
+}
+[2025-07-05 20:00:19] ERROR: ➡️ GET /api/v1/projects/66f7b3fca93f32f776ad1234/tasks → 500 [69ms]
+[2025-07-05 20:00:19] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/66f7b3fca93f32f776ad1234/tasks",
+  "status": 500,
+  "duration": "69ms",
+  "params": {
+    "id": "66f7b3fca93f32f776ad1234"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "mongoose is not defined"
+  }
+}
+[2025-07-05 20:04:15] ERROR: ➡️ GET /api/v1/projects/66f7b3fca93f32f776ad1234/tasks → 500 [54ms]
+[2025-07-05 20:04:15] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/66f7b3fca93f32f776ad1234/tasks",
+  "status": 500,
+  "duration": "54ms",
+  "params": {
+    "id": "66f7b3fca93f32f776ad1234"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Task.findByProject is not a function"
+  }
+}
+[2025-07-05 20:18:22] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [46ms]
+[2025-07-05 20:18:22] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "46ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:18:22] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:18:22] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:21:25] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [42ms]
+[2025-07-05 20:21:25] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "42ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:21:25] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [42ms]
+[2025-07-05 20:21:25] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "42ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:23:38] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:23:38] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:23:38] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:23:38] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:23:48] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [42ms]
+[2025-07-05 20:23:48] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "42ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:23:48] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [39ms]
+[2025-07-05 20:23:48] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "39ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:25:37] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:25:37] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:25:37] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:25:37] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:26:36] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [43ms]
+[2025-07-05 20:26:36] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "43ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:26:36] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:26:36] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:30:08] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [41ms]
+[2025-07-05 20:30:08] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "41ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:30:27] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [40ms]
+[2025-07-05 20:30:27] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "40ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:30:27] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [40ms]
+[2025-07-05 20:30:27] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "40ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:30:36] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [42ms]
+[2025-07-05 20:30:36] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "42ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:30:36] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [40ms]
+[2025-07-05 20:30:36] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "40ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:33:35] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [40ms]
+[2025-07-05 20:33:35] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "40ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:33:35] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [37ms]
+[2025-07-05 20:33:35] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "37ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:33:42] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [37ms]
+[2025-07-05 20:33:42] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "37ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-05 20:33:42] ERROR: ➡️ GET /api/v1/projects/undefined/tasks → 500 [39ms]
+[2025-07-05 20:33:42] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/undefined/tasks",
+  "status": 500,
+  "duration": "39ms",
+  "params": {
+    "id": "undefined"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cast to ObjectId failed for value \"undefined\" (type string) at path \"project\" for model \"Task\""
+  }
+}
+[2025-07-06 01:43:00] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [62ms]
+[2025-07-06 01:43:00] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "62ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot read properties of undefined (reading 'id')"
+  }
+}
+[2025-07-06 01:43:26] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [60ms]
+[2025-07-06 01:43:26] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "60ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "Cannot read properties of undefined (reading 'id')"
+  }
+}
+[2025-07-06 01:44:40] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [79ms]
+[2025-07-06 01:44:40] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "79ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "userId is not defined"
+  }
+}
+[2025-07-06 01:45:50] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [48ms]
+[2025-07-06 01:45:50] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "48ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "userId is not defined"
+  }
+}
+[2025-07-06 01:46:37] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [49ms]
+[2025-07-06 01:46:37] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "49ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "userId is not defined"
+  }
+}
+[2025-07-06 01:46:44] ERROR: ➡️ GET /api/v1/projects/user/6864578d283a35aa41ce87c7 → 500 [46ms]
+[2025-07-06 01:46:44] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/projects/user/6864578d283a35aa41ce87c7",
+  "status": 500,
+  "duration": "46ms",
+  "params": {
+    "id": "6864578d283a35aa41ce87c7"
+  },
+  "response": {
+    "message": "Internal Server Error",
+    "error": "userId is not defined"
+  }
+}
+[2025-07-06 03:12:15] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [61ms]
+[2025-07-06 03:12:15] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "61ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:14:39] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [43ms]
+[2025-07-06 03:14:39] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "43ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:15:08] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [41ms]
+[2025-07-06 03:15:08] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "41ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:17:53] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [47ms]
+[2025-07-06 03:17:53] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "47ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:19:11] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [46ms]
+[2025-07-06 03:19:11] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "46ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:19:44] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [39ms]
+[2025-07-06 03:19:44] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "39ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:20:42] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [41ms]
+[2025-07-06 03:20:42] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "41ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:21:13] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [47ms]
+[2025-07-06 03:21:13] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "47ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 03:23:20] ERROR: ➡️ PUT /api/v1/tasks/6869503e4fe8ca2981e0fc3a → 500 [38ms]
+[2025-07-06 03:23:20] ERROR: {
+  "method": "PUT",
+  "url": "/api/v1/tasks/6869503e4fe8ca2981e0fc3a",
+  "status": 500,
+  "duration": "38ms",
+  "body": {
+    "status": {}
+  },
+  "params": {
+    "id": "6869503e4fe8ca2981e0fc3a"
+  },
+  "response": {
+    "message": "Error updating task: Cast to string failed for value \"{}\" (type Object) at path \"status\""
+  }
+}
+[2025-07-06 13:46:48] ERROR: ➡️ GET /api/v1/view/stats → 500 [117ms]
+[2025-07-06 13:46:48] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/view/stats",
+  "status": 500,
+  "duration": "117ms",
+  "response": {
+    "message": "Error fetching stats"
+  }
+}
+[2025-07-06 13:46:49] ERROR: ➡️ GET /api/v1/view/stats → 500 [110ms]
+[2025-07-06 13:46:49] ERROR: {
+  "method": "GET",
+  "url": "/api/v1/view/stats",
+  "status": 500,
+  "duration": "110ms",
+  "response": {
+    "message": "Error fetching stats"
+  }
+}
