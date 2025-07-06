@@ -106,7 +106,7 @@ https://docs.google.com/document/d/1O9IQSOIEHaTFtu-CYBrvIF6ILb5lObf5VQ94bSPRHcA/
 3. for go client setup
 cd client
 npm install
-npm dev run
+npm run dev
 
 
 
