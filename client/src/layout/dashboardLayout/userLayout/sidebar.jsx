@@ -24,12 +24,12 @@ const Sidebar = () => {
           {/* <!-- Sidebar navigation--> */}
           <nav className="sidebar-nav scroll-sidebar" data-simplebar="">
             <ul id="sidebarnav">
-              <li className="sidebar-item">
+              {/* <li className="sidebar-item">
                 <Link className="sidebar-link primary-hover-bg" to="/user" aria-expanded="false">
                   <iconify-icon icon="solar:atom-line-duotone"></iconify-icon>
                   <span className="hide-menu">Overview</span>
                 </Link>
-              </li>
+              </li> */}
               <li className="sidebar-item">
                 <Link className="sidebar-link primary-hover-bg justify-content-between"
                   to="/user/projects" aria-expanded="false">
